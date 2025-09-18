@@ -7,8 +7,8 @@ const HomePage = () => {
   console.log("Auth User:", authUser)
   return (
     authUser && (
-      <div className="min-h-screen bg-gray-900">
-        <h1>Home Page</h1>
+      <div className="min-h-screen bg-gray-900 p-20">
+        <h1 className="text-white">Home Page</h1>
       </div>
     )
   );
